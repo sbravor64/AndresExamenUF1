@@ -30,6 +30,7 @@ public class AfegeixBooks {
             }
 
             element.getParentNode().replaceChild(library, element);
+
             añadirBook(document);
 
             saveFile(document);
